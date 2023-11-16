@@ -53,11 +53,11 @@ void main()
     {
         printf("FIFO file\n");
     }
-        else if (S_ISSOCK(stbuff.st_mode))
+    else if (S_ISSOCK(stbuff.st_mode))
     {
         printf("Socket file\n");
     }
-        else if (S_ISLNK(stbuff.st_mode))
+    else if (S_ISLNK(stbuff.st_mode))
     {
         printf("Link file\n");
     }
