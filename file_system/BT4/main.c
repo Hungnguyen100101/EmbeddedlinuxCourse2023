@@ -11,7 +11,7 @@ void main()
     int fd ;
     struct  stat statbuff;
     char *writebuff= "moi ghi them\n";
-    
+    printf("Type the file path:\n");
     if (!fgets(filepath, sizeof(filepath), stdin)) {
         fputs("Input error :(\n\n", stderr);
         return ;
